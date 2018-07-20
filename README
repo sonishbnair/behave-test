@@ -6,8 +6,6 @@ Dev Setup:
     1. Navigate to application folder, make sure requirements.txt file exists
     2. Run - pip install -r requirements.txt
     3. Check installed packages - pip list
-    4. Install selenium: pip install selenium
-    5. Install influxdb: pip install influxdb    
 5. Run the Synthetics script under 'feature' folder - behave -n ‘Login NEAT'
 
 Note - Make sure you are not in NBC(NBC_CORP) network while pip installing the packages.
