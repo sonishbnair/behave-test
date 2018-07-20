@@ -1,0 +1,26 @@
+Dev Setup:
+1. Pip install - https://pip.pypa.io/en/stable/installing/
+2. Clone the project from - https://github.inbcu.com/newsroom-systems/synthetics
+3. Setup virtual environment (optional)
+4. Install depended Python modules using the requirements.txt file
+    1. Navigate to application folder, make sure requirements.txt file exists
+    2. Run - pip install -r requirements.txt
+    3. Check installed packages - pip list
+    4. Install selenium: pip install selenium
+    5. Install influxdb: pip install influxdb    
+5. Run the Synthetics script under 'feature' folder - behave -n ‘Login NEAT'
+
+Note - Make sure you are not in NBC(NBC_CORP) network while pip installing the packages.
+
+
+Python - Virtual Environment
+Setup
+* Check if pip package virtualenv is installed.
+* pip install virtualenv to install virtualenv package.
+* virtualenv <name of virtual env> to create a virtualenv.
+example - virtualenv transitalert_env
+* source virtualenv/bin/activate to activate the virtualenv created above.
+Activate and Deactivate virtualenv.
+
+Activate - source <virtualenv_name>/bin/activate
+Deactivate - deactivate
