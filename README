@@ -1,6 +1,6 @@
 Dev Setup:
 1. Pip install - https://pip.pypa.io/en/stable/installing/
-2. Clone the project from - https://github.inbcu.com/newsroom-systems/synthetics
+2. Clone the project from - https://github.com/sonishbnair/behave-test
 3. Setup virtual environment (optional)
 4. Install depended Python modules using the requirements.txt file
     1. Navigate to application folder, make sure requirements.txt file exists
