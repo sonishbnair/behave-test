@@ -8,8 +8,6 @@ Dev Setup:
     3. Check installed packages - pip list
 5. Run the Synthetics script under 'feature' folder - behave -n ‘Login NEAT'
 
-Note - Make sure you are not in NBC(NBC_CORP) network while pip installing the packages.
-
 
 Python - Virtual Environment
 Setup
